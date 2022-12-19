@@ -1,11 +1,24 @@
 # TensorFlow.js-Prediction-Model-4-Limbo
-A webpage that uses TensorFlow.js to train a model in the browser. Given Nonce, Client Seed, and Hashed Server Seed, the model will learn to predict the outcome,
+A webpage that uses TensorFlow.js to train a model in the browser. Given the Nonce, Client Seed, and (Hashed) Server Seed, the model will learn to predict the outcome.
+
+[Added 12/18/22] Taking it a a step further, if we add the None, Client Seed, and revealed Server seeed, perhaps the model can learn the correlation of outcomes as it relates to the hashes server seed and the un-hashed server seed. (pfft, yea right, but who knows right?)
 
 ## Basis
-Given a hashed server seed, client seed, and progressive naunce, associations with the hashed server seed to asspciate a limbo outcome may form a different hashed seed and outcome relationship that hopefully results in something being predictable.
+Given a hashed server seed, client seed, and progressive naunce, associations with the hashed server seed to the associated a limbo outcome may form a the the un-hashed seed and outcome relationship that hopefully results in some sort of correlation or relation that may ideally lead to aiding in prediction of an outcome or a patternistic outcome.
+
+###
+As a seperate approach, we will group the outcomes into 3-5 main categories. We will the plot the outcomes based on this categorization to create a visual of the outcomes in the hopes of identifying intermitten patterns that may form.
+
+We will then apply the same steps to the hashed/unhashed pair of the server seed to compare and find any possible correlations or identifiable pattern relationships betewen the two. This seeks to find any consistency in either the ratio of of identifiable pattern appearances to the total number of recorded events or in an even greater stretch of imagination, some sort of identifiable nonce in the hsahed server seed outcomes which can be used as a notifier of a forthcoming outcome in the unhashed server seed.
 
 ## Just for Fun by a Newb
-Suggestions and improvements as well as corrections are welcome and invited. I'm just trying to figure it all out, so result may be long awaiting. I'm more or less following the tutorial found [here](https://codelabs.developers.google.com/codelabs/tfjs-training-regression#0) and trying to adapt it to the data recorded for [Limbo](https://stake.us/casino/games/limbo/?c=Github) found on [Stake.US](https://stake.us/?c=Github). If it works out, I hope to include other games' outcomes.
+Suggestions and improvements as well as corrections are welcome and invited. I'm just trying to figure it all out, so result may be long awaiting. I'm more or less following the tutorial found [here](https://codelabs.developers.google.com/codelabs/tfjs-training-regression#0) and trying to adapt it to the data recorded for [Limbo](https://stake.us/casino/games/limbo/?c=Github) found on [Stake.US](https://stake.us/?c=Github). If it works out, I hope to include other games' outcomes.\
+
+We've completed the tutorial in all its steps in a Codepne.io project found [here](https://codepen.io/nucleare/pen/bGjGeLY).
+
+
+# Unorthodox Justification
+Our pleading of sanity, or making sense of our madness:
 
 ### Background
 
