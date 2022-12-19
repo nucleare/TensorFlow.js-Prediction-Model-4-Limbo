@@ -1,3 +1,5 @@
+This project has been abndoned in the interest of using [Rapidminer](https://docs.rapidminer.com/9.5/go/predict/) instead.
+
 # TensorFlow.js-Prediction-Model-4-Limbo
 A webpage that uses TensorFlow.js to train a model in the browser. Given the Nonce, Client Seed, and (Hashed) Server Seed, the model will learn to predict the outcome.
 
